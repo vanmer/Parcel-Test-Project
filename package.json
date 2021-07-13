@@ -1,0 +1,27 @@
+{
+  "name": "parcel-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanmer/Parcel-Test-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanmer/Parcel-Test-Project/issues"
+  },
+  "homepage": "https://github.com/vanmer/Parcel-Test-Project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

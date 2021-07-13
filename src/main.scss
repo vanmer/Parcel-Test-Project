@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family:  Helvetica, sans-serif;
+    background-color: rgb(246, 255, 117);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 200;
+}
