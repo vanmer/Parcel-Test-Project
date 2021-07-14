@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "start": "parcel ./*.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/vanmer/Parcel-Test-Project",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -19,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/vanmer/Parcel-Test-Project/issues"
   },
-  "homepage": "https://github.com/vanmer/Parcel-Test-Project#readme",
+  "homepage": "https://github.com/vanmer/Parcel-Test-Project",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.35.2"
